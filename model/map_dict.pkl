@@ -1,0 +1,484 @@
+(dp0
+S'shot_zone_basic'
+p1
+ccollections
+OrderedDict
+p2
+((lp3
+(lp4
+S'Mid-Range'
+p5
+aI0
+aa(lp6
+S'Restricted Area'
+p7
+aI1
+aa(lp8
+S'Above the Break 3'
+p9
+aI2
+aa(lp10
+S'In The Paint (Non-RA)'
+p11
+aI3
+aa(lp12
+S'Right Corner 3'
+p13
+aI4
+aa(lp14
+S'Left Corner 3'
+p15
+aI5
+aa(lp16
+S'Backcourt'
+p17
+aI6
+aatp18
+Rp19
+sS'shot_type'
+p20
+g2
+((lp21
+(lp22
+S'2PT Field Goal'
+p23
+aI0
+aa(lp24
+S'3PT Field Goal'
+p25
+aI1
+aatp26
+Rp27
+sS'combined_shot_type'
+p28
+g2
+((lp29
+(lp30
+S'Jump Shot'
+p31
+aI0
+aa(lp32
+S'Layup'
+p33
+aI1
+aa(lp34
+S'Dunk'
+p35
+aI2
+aa(lp36
+S'Tip Shot'
+p37
+aI3
+aa(lp38
+S'Hook Shot'
+p39
+aI4
+aa(lp40
+S'Bank Shot'
+p41
+aI5
+aatp42
+Rp43
+sS'action_type'
+p44
+g2
+((lp45
+(lp46
+S'Jump Shot'
+p47
+aI0
+aa(lp48
+S'Layup Shot'
+p49
+aI1
+aa(lp50
+S'Driving Layup Shot'
+p51
+aI2
+aa(lp52
+S'Turnaround Jump Shot'
+p53
+aI3
+aa(lp54
+S'Fadeaway Jump Shot'
+p55
+aI4
+aa(lp56
+S'Running Jump Shot'
+p57
+aI5
+aa(lp58
+S'Pullup Jump shot'
+p59
+aI6
+aa(lp60
+S'Turnaround Fadeaway shot'
+p61
+aI7
+aa(lp62
+S'Slam Dunk Shot'
+p63
+aI8
+aa(lp64
+S'Reverse Layup Shot'
+p65
+aI9
+aa(lp66
+S'Jump Bank Shot'
+p67
+aI10
+aa(lp68
+S'Driving Dunk Shot'
+p69
+aI11
+aa(lp70
+S'Dunk Shot'
+p71
+aI12
+aa(lp72
+S'Tip Shot'
+p73
+aI13
+aa(lp74
+S'Alley Oop Dunk Shot'
+p75
+aI14
+aa(lp76
+S'Step Back Jump shot'
+p77
+aI15
+aa(lp78
+S'Floating Jump shot'
+p79
+aI16
+aa(lp80
+S'Driving Reverse Layup Shot'
+p81
+aI17
+aa(lp82
+S'Hook Shot'
+p83
+aI18
+aa(lp84
+S'Driving Finger Roll Shot'
+p85
+aI19
+aa(lp86
+S'Alley Oop Layup shot'
+p87
+aI20
+aa(lp88
+S'Reverse Dunk Shot'
+p89
+aI21
+aa(lp90
+S'Running Layup Shot'
+p91
+aI22
+aa(lp92
+S'Turnaround Bank shot'
+p93
+aI23
+aa(lp94
+S'Driving Finger Roll Layup Shot'
+p95
+aI24
+aa(lp96
+S'Driving Slam Dunk Shot'
+p97
+aI25
+aa(lp98
+S'Running Bank shot'
+p99
+aI26
+aa(lp100
+S'Running Hook Shot'
+p101
+aI27
+aa(lp102
+S'Finger Roll Layup Shot'
+p103
+aI28
+aa(lp104
+S'Fadeaway Bank shot'
+p105
+aI29
+aa(lp106
+S'Driving Jump shot'
+p107
+aI30
+aa(lp108
+S'Finger Roll Shot'
+p109
+aI31
+aa(lp110
+S'Jump Hook Shot'
+p111
+aI32
+aa(lp112
+S'Running Dunk Shot'
+p113
+aI33
+aa(lp114
+S'Reverse Slam Dunk Shot'
+p115
+aI34
+aa(lp116
+S'Putback Layup Shot'
+p117
+aI35
+aa(lp118
+S'Follow Up Dunk Shot'
+p119
+aI36
+aa(lp120
+S'Driving Hook Shot'
+p121
+aI37
+aa(lp122
+S'Turnaround Hook Shot'
+p123
+aI38
+aa(lp124
+S'Pullup Bank shot'
+p125
+aI39
+aa(lp126
+S'Running Reverse Layup Shot'
+p127
+aI40
+aa(lp128
+S'Cutting Layup Shot'
+p129
+aI41
+aa(lp130
+S'Running Finger Roll Layup Shot'
+p131
+aI42
+aa(lp132
+S'Hook Bank Shot'
+p133
+aI43
+aa(lp134
+S'Driving Bank shot'
+p135
+aI44
+aa(lp136
+S'Driving Floating Jump Shot'
+p137
+aI45
+aa(lp138
+S'Putback Dunk Shot'
+p139
+aI46
+aa(lp140
+S'Running Pull-Up Jump Shot'
+p141
+aI47
+aa(lp142
+S'Running Finger Roll Shot'
+p143
+aI48
+aa(lp144
+S'Running Tip Shot'
+p145
+aI49
+aa(lp146
+S'Tip Layup Shot'
+p147
+aI50
+aa(lp148
+S'Putback Slam Dunk Shot'
+p149
+aI51
+aa(lp150
+S'Turnaround Finger Roll Shot'
+p151
+aI52
+aa(lp152
+S'Turnaround Fadeaway Bank Jump Shot'
+p153
+aI53
+aa(lp154
+S'Running Slam Dunk Shot'
+p155
+aI54
+aa(lp156
+S'Cutting Finger Roll Layup Shot'
+p157
+aI55
+aa(lp158
+S'Driving Floating Bank Jump Shot'
+p159
+aI56
+aatp160
+Rp161
+sS'shot_zone_area'
+p162
+g2
+((lp163
+(lp164
+S'Center(C)'
+p165
+aI0
+aa(lp166
+S'Right Side Center(RC)'
+p167
+aI1
+aa(lp168
+S'Right Side(R)'
+p169
+aI2
+aa(lp170
+S'Left Side Center(LC)'
+p171
+aI3
+aa(lp172
+S'Left Side(L)'
+p173
+aI4
+aa(lp174
+S'Back Court(BC)'
+p175
+aI5
+aatp176
+Rp177
+sS'opponent'
+p178
+g2
+((lp179
+(lp180
+S'SAS'
+p181
+aI0
+aa(lp182
+S'PHX'
+p183
+aI1
+aa(lp184
+S'HOU'
+p185
+aI2
+aa(lp186
+S'SAC'
+p187
+aI3
+aa(lp188
+S'DEN'
+p189
+aI4
+aa(lp190
+S'POR'
+p191
+aI5
+aa(lp192
+S'UTA'
+p193
+aI6
+aa(lp194
+S'MIN'
+p195
+aI7
+aa(lp196
+S'GSW'
+p197
+aI8
+aa(lp198
+S'LAC'
+p199
+aI9
+aa(lp200
+S'DAL'
+p201
+aI10
+aa(lp202
+S'MEM'
+p203
+aI11
+aa(lp204
+S'BOS'
+p205
+aI12
+aa(lp206
+S'SEA'
+p207
+aI13
+aa(lp208
+S'IND'
+p209
+aI14
+aa(lp210
+S'PHI'
+p211
+aI15
+aa(lp212
+S'ORL'
+p213
+aI16
+aa(lp214
+S'DET'
+p215
+aI17
+aa(lp216
+S'OKC'
+p217
+aI18
+aa(lp218
+S'TOR'
+p219
+aI19
+aa(lp220
+S'NYK'
+p221
+aI20
+aa(lp222
+S'MIA'
+p223
+aI21
+aa(lp224
+S'CHA'
+p225
+aI22
+aa(lp226
+S'CLE'
+p227
+aI23
+aa(lp228
+S'CHI'
+p229
+aI24
+aa(lp230
+S'WAS'
+p231
+aI25
+aa(lp232
+S'MIL'
+p233
+aI26
+aa(lp234
+S'NOH'
+p235
+aI27
+aa(lp236
+S'NJN'
+p237
+aI28
+aa(lp238
+S'ATL'
+p239
+aI29
+aa(lp240
+S'NOP'
+p241
+aI30
+aa(lp242
+S'VAN'
+p243
+aI31
+aa(lp244
+S'BKN'
+p245
+aI32
+aatp246
+Rp247
+s.

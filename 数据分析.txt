@@ -1,0 +1,79 @@
+action_type         投篮动作 57种
+                    ['Driving Jump shot', 'Turnaround Fadeaway shot', 'Pullup Bank shot', 'Cutting Finger Roll Layup Shot',
+                    'Running Reverse Layup Shot', 'Putback Slam Dunk Shot', 'Putback Dunk Shot', 'Driving Slam Dunk Shot',
+                    'Running Bank shot', 'Running Layup Shot', 'Floating Jump shot', 'Follow Up Dunk Shot', 'Layup Shot',
+                    'Running Finger Roll Layup Shot', 'Driving Hook Shot', 'Step Back Jump shot', 'Slam Dunk Shot',
+                    'Alley Oop Dunk Shot', 'Jump Bank Shot', 'Pullup Jump shot', 'Putback Layup Shot', 'Driving Reverse Layup Shot',
+                     'Driving Bank shot', 'Driving Dunk Shot', 'Running Hook Shot', 'Turnaround Hook Shot', 'Reverse Dunk Shot',
+                     'Turnaround Bank shot', 'Turnaround Jump Shot', 'Driving Floating Jump Shot', 'Hook Bank Shot',
+                     'Finger Roll Shot', 'Jump Shot', 'Reverse Layup Shot', 'Alley Oop Layup shot', 'Driving Finger Roll Layup Shot',
+                     'Turnaround Fadeaway Bank Jump Shot', 'Tip Shot', 'Running Jump Shot', 'Dunk Shot', 'Hook Shot',
+                     'Running Finger Roll Shot', 'Running Pull-Up Jump Shot', 'Fadeaway Jump Shot', 'Reverse Slam Dunk Shot',
+                     'Turnaround Finger Roll Shot', 'Driving Layup Shot', 'Jump Hook Shot', 'Cutting Layup Shot', 'Running Slam Dunk Shot',
+                      'Driving Finger Roll Shot', 'Running Dunk Shot', 'Finger Roll Layup Shot', 'Fadeaway Bank shot', 'Tip Layup Shot',
+                      'Driving Floating Bank Jump Shot', 'Running Tip Shot'])
+
+combined_shot_type	基础动作 6种  Layup 带球上篮  jump shoot 跳投  dunk 扣篮  tip-shoot 补篮 Hook Shot 勾手
+                    ['Dunk', 'Tip Shot', 'Hook Shot', 'Bank Shot', 'Layup', 'Jump Shot']
+game_event_id	    比赛的第几个事件
+game_id	            比赛id
+lat	                ？？? 集中在33.253300 到 34.088300
+loc_x               -250~248  球场面积28*15
+loc_y	            -44~791
+lon	                ??? 集中在-118.519800 到 -118.021800
+minutes_remaining	每节剩余分钟 0到11
+period	            第几节
+playoffs	        是否季后赛
+season	            赛季
+seconds_remaining	这分钟还有几秒，和剩余分钟结合
+shot_distance	    投篮距离
+shot_made_flag	    是否投进 ，30697 - 25697 少5000
+shot_type	        2分/3分，注意3分并不是圆弧
+shot_zone_area	    投篮空间范围 6类
+                    set(['Center(C)', 'Left Side(L)', 'Right Side Center(RC)', 'Right Side(R)', 'Back Court(BC)', 'Left Side Center(LC)'])
+shot_zone_basic	    投篮区域基础？ 7类
+                    Restricted Area 禁区，在这里不能制造进攻犯规
+                    油漆区（三秒区）就是那个长方形区域
+                    set(['Backcourt', 'In The Paint (Non-RA)', 'Right Corner 3', 'Above the Break 3', 'Left Corner 3', 'Restricted Area', 'Mid-Range'])
+shot_zone_range     投篮区域范围  5类
+                    set(['8-16 ft.', 'Back Court Shot', '16-24 ft.', '24+ ft.', 'Less Than 8 ft.'])
+team_id	            没用，都是湖人
+team_name	        没用，都是湖人
+game_date	        比赛日期，可以推算年龄
+matchup	            A vs B , A @ B可以得出主客场 前者A主场，后者A客场
+opponent	        对手名称，可比赛日期可能有关联
+shot_id             投篮唯一id
+
+25组特征
+
+---------------------------------------------------------------------------------------------------
+action_type         投篮动作 57种
+                    OrderedDict([('Jump Shot', 0), ('Layup Shot', 1), ('Driving Layup Shot', 2), ('Turnaround Jump Shot', 3), ('Fadeaway Jump Shot', 4), ('Running Jump Shot', 5), ('Pullup Jump shot', 6), ('Turnaround Fadeaway shot', 7), ('Slam Dunk Shot', 8), ('Reverse Layup Shot', 9), ('Jump Bank Shot', 10), ('Driving Dunk Shot', 11), ('Dunk Shot', 12), ('Tip Shot', 13), ('Alley Oop Dunk Shot', 14), ('Step Back Jump shot', 15), ('Floating Jump shot', 16), ('Driving Reverse Layup Shot', 17), ('Hook Shot', 18), ('Driving Finger Roll Shot', 19), ('Alley Oop Layup shot', 20), ('Reverse Dunk Shot', 21), ('Running Layup Shot', 22), ('Turnaround Bank shot', 23), ('Driving Finger Roll Layup Shot', 24), ('Driving Slam Dunk Shot', 25), ('Running Bank shot', 26), ('Running Hook Shot', 27), ('Finger Roll Layup Shot', 28), ('Fadeaway Bank shot', 29), ('Driving Jump shot', 30), ('Finger Roll Shot', 31), ('Jump Hook Shot', 32), ('Running Dunk Shot', 33), ('Reverse Slam Dunk Shot', 34), ('Putback Layup Shot', 35), ('Follow Up Dunk Shot', 36), ('Driving Hook Shot', 37), ('Turnaround Hook Shot', 38), ('Pullup Bank shot', 39), ('Running Reverse Layup Shot', 40), ('Cutting Layup Shot', 41), ('Running Finger Roll Layup Shot', 42), ('Hook Bank Shot', 43), ('Driving Bank shot', 44), ('Driving Floating Jump Shot', 45), ('Putback Dunk Shot', 46), ('Running Pull-Up Jump Shot', 47), ('Running Finger Roll Shot', 48), ('Running Tip Shot', 49), ('Tip Layup Shot', 50), ('Putback Slam Dunk Shot', 51), ('Turnaround Finger Roll Shot', 52), ('Turnaround Fadeaway Bank Jump Shot', 53), ('Running Slam Dunk Shot', 54), ('Cutting Finger Roll Layup Shot', 55), ('Driving Floating Bank Jump Shot', 56)])
+
+combined_shot_type	基础动作 6种  Layup 带球上篮  jump shoot 跳投  dunk 扣篮  tip-shoot 补篮 Hook Shot 勾手
+                    OrderedDict([('Jump Shot', 0), ('Layup', 1), ('Dunk', 2), ('Tip Shot', 3), ('Hook Shot', 4), ('Bank Shot', 5)])
+
+loc_x               -250~248  球场面积28*15
+loc_y	            -44~791
+period	            第几节
+playoffs	        是否季后赛
+time_remaining      minutes_remaining * 60 + seconds_remaining
+shot_distance	    投篮距离
+shot_made_flag	    是否投进 ，30697 - 25697 少5000
+shot_type	        2分/3分，注意3分并不是圆弧
+                    OrderedDict([('2PT Field Goal', 0), ('3PT Field Goal', 1)])
+shot_zone_area	    投篮空间范围 6类
+                    OrderedDict([('Center(C)', 0), ('Right Side Center(RC)', 1), ('Right Side(R)', 2), ('Left Side Center(LC)', 3), ('Left Side(L)', 4), ('Back Court(BC)', 5)])
+shot_zone_basic	    投篮区域基础？ 7类
+                    OrderedDict([('Mid-Range', 0), ('Restricted Area', 1), ('Above the Break 3', 2), ('In The Paint (Non-RA)', 3), ('Right Corner 3', 4), ('Left Corner 3', 5), ('Backcourt', 6)])
+game_date	        比赛日期，可以推算年龄，而且越到后面越累
+主客场	            A vs B , A @ B可以得出主客场 前者A主场，后者A客场
+opponent	        对手名称，可比赛日期可能有关联
+                    OrderedDict([('SAS', 0), ('PHX', 1), ('HOU', 2), ('SAC', 3), ('DEN', 4), ('POR', 5), ('UTA', 6), ('MIN', 7), ('GSW', 8), ('LAC', 9), ('DAL', 10), ('MEM', 11), ('BOS', 12), ('SEA', 13), ('IND', 14), ('PHI', 15), ('ORL', 16), ('DET', 17), ('OKC', 18), ('TOR', 19), ('NYK', 20), ('MIA', 21), ('CHA', 22), ('CLE', 23), ('CHI', 24), ('WAS', 25), ('MIL', 26), ('NOH', 27), ('NJN', 28), ('ATL', 29), ('NOP', 30), ('VAN', 31), ('BKN', 32)])
+shot_id             投篮唯一id
+
+最后16组特征
+
+思考：
+粒度：
+    是否将节数、剩余分钟、剩余秒全部结合？
